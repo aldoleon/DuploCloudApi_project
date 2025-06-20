@@ -1,0 +1,12 @@
+@DuploCloudApi_HostAddress = https://localhost:7153
+
+
+POST {{DuploCloudApi_HostAddress}}/api/forecasts
+Content-Type: application/json
+
+{
+  "Latitude" : "32.50095",
+  "Longitude" : "-116.99696"
+}
+
+###
